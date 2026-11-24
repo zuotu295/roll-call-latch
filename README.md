@@ -21,6 +21,8 @@ STUDIONET_FAUCET=1 npm run deploy
 STUDIONET_FAUCET=1 npm run test:studionet
 ```
 
-Save the JSON object from the smoke test’s `EVIDENCE` output and run `npm run verify -- evidence.json` for read-only verification. The last two commands deploy independent test instances. The acceptance script shows the exact argument order, separate sponsor and resolver signers, and finalized `get_rule` calls. Use `STUDIONET_PRIVATE_KEY` for a funded sponsor account and opt into the test faucet for disposable callers.
+Save the JSON object from the smoke test’s `EVIDENCE` output and run `npm run verify -- EVIDENCE.json` for read-only verification. The last two commands deploy independent test instances. The acceptance script shows the exact argument order, separate sponsor and resolver signers, and finalized `get_rule` calls. Use `STUDIONET_PRIVATE_KEY` for a funded sponsor account and opt into the test faucet for disposable callers.
 
 [Official lint results](LINT.md)
+
+[Finalized Studionet transactions and state readbacks](EVIDENCE.md) · Run `npm run verify` to reproduce the read-only checks against the included evidence.

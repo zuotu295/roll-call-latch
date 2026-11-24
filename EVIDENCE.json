@@ -1,0 +1,156 @@
+{
+  "address": "0xFa3e417c57CD49c431f6b78e23f4081394321e80",
+  "transactions": {
+    "deploy": {
+      "hash": "0x5e3bd8013dbdb525c39b7064c0ff210867c987d1ca18b7a535773668a37664a0",
+      "state": "FINALIZED",
+      "execution": "SUCCESS",
+      "from": "0x3F9Ae49208D10431E31EA0A562D571812A8Be88C",
+      "consensus": "MAJORITY_AGREE",
+      "votes": {
+        "0x22Eda431B7fBC1216baE3b077a78c973a8719c58": "agree",
+        "0x23A15A452F19D1B616276fedC5B8B51d69082959": "idle",
+        "0x5e880d85a70De78dDEf86236d57c42e73F560615": "agree",
+        "0x6DC61b906F74F44612c5545b0b79486133B3556d": "agree",
+        "0x88E148Da14d45c5a5DD2DB25E776eBCBCe0Df539": "agree"
+      }
+    },
+    "bindPassing": {
+      "hash": "0x297b5fc592a16fb4d811689848570376f4dd7ba8714e8e0446831a4df391deea",
+      "state": "FINALIZED",
+      "execution": "SUCCESS",
+      "from": "0x3F9Ae49208D10431E31EA0A562D571812A8Be88C",
+      "consensus": "MAJORITY_AGREE",
+      "votes": {
+        "0x19a02f95418A6c76091CDA37C4fc542CA82805c9": "agree",
+        "0x1B490819e040562a5fb40CD64B1c70D4419c38d1": "agree",
+        "0x534af64FFB6796Bc69aBf4C26c50788F1fFAfe56": "agree",
+        "0x813890bC5bEDEB4F5437570962379F04738F18Cb": "idle",
+        "0xe358f855C96d8E7243836cf986eb037175B9467e": "idle"
+      }
+    },
+    "bindFailed": {
+      "hash": "0xffca579fbc38fe91ce46ca53c2e52b2780fa787c005c17c4406ee2d662cf15fb",
+      "state": "FINALIZED",
+      "execution": "SUCCESS",
+      "from": "0x3F9Ae49208D10431E31EA0A562D571812A8Be88C",
+      "consensus": "MAJORITY_AGREE",
+      "votes": {
+        "0x5e880d85a70De78dDEf86236d57c42e73F560615": "idle",
+        "0x6fe9DE3d0adc76D6416A13CD8107aaE49A3CF98F": "agree",
+        "0x813890bC5bEDEB4F5437570962379F04738F18Cb": "idle",
+        "0xBE58b43DF1d991e054F743Cc5571dD7029F3B888": "agree",
+        "0xe358f855C96d8E7243836cf986eb037175B9467e": "agree"
+      }
+    },
+    "activate": {
+      "hash": "0x00e9804aed6e49580917bc6aed610d66e6bd821809fbf23247d2099acd972e11",
+      "state": "FINALIZED",
+      "execution": "SUCCESS",
+      "from": "0xe58C5D1F50D127E72138eF59A8C0804E81c178b8",
+      "consensus": "MAJORITY_AGREE",
+      "votes": {
+        "0x23A15A452F19D1B616276fedC5B8B51d69082959": "idle",
+        "0x240d2d7c8DF220110c26cfFFC532479319Cca0dC": "idle",
+        "0x62718FbDf0509A398aA525C152D60c1F7A9d33D3": "agree",
+        "0x6fe9DE3d0adc76D6416A13CD8107aaE49A3CF98F": "agree",
+        "0x725Ab89db6A9DD886Ba71Bc5E63a01070C325bE3": "agree"
+      }
+    },
+    "close": {
+      "hash": "0x90a6263de7cd3008d3fd2ea67a099c35266434681284bd8dcabaeff55a7b0a61",
+      "state": "FINALIZED",
+      "execution": "SUCCESS",
+      "from": "0x3F9Ae49208D10431E31EA0A562D571812A8Be88C",
+      "consensus": "MAJORITY_AGREE",
+      "votes": {
+        "0x19a02f95418A6c76091CDA37C4fc542CA82805c9": "agree",
+        "0x1B490819e040562a5fb40CD64B1c70D4419c38d1": "agree",
+        "0x22Eda431B7fBC1216baE3b077a78c973a8719c58": "agree",
+        "0x534af64FFB6796Bc69aBf4C26c50788F1fFAfe56": "agree",
+        "0x88E148Da14d45c5a5DD2DB25E776eBCBCe0Df539": "idle"
+      }
+    },
+    "rejectResettle": {
+      "hash": "0xfea2a3fea9d6750ca741fe8d8e0554a09525fdf867f454b185b0b2e71e56bf38",
+      "state": "FINALIZED",
+      "execution": "ERROR",
+      "from": "0xe58C5D1F50D127E72138eF59A8C0804E81c178b8",
+      "consensus": "MAJORITY_AGREE",
+      "votes": {
+        "0x5e880d85a70De78dDEf86236d57c42e73F560615": "idle",
+        "0x813890bC5bEDEB4F5437570962379F04738F18Cb": "agree",
+        "0x88E148Da14d45c5a5DD2DB25E776eBCBCe0Df539": "agree",
+        "0xe358f855C96d8E7243836cf986eb037175B9467e": "agree",
+        "0xee46B9Dc4c860149B1d140840284e5374854e746": "agree"
+      },
+      "error": "No pending rule"
+    }
+  },
+  "activated": {
+    "year": 2024,
+    "roll": 2,
+    "min_yea": 210,
+    "state": "ACTIVATED",
+    "evidence": {
+      "yea": 213,
+      "nay": 200,
+      "result": "Passed"
+    }
+  },
+  "closed": {
+    "year": 2024,
+    "roll": 100,
+    "min_yea": 200,
+    "state": "CLOSED",
+    "evidence": {
+      "yea": 205,
+      "nay": 213,
+      "result": "Failed"
+    }
+  },
+  "source": {
+    "path": "contracts/roll_call_latch.py",
+    "sha256": "c10f00e7dfcf9fe533499f46312653515123ccddf1ec315f819da195e9f4c9f7"
+  },
+  "equivalence": {
+    "activate": "{\"yea\":213,\"nay\":200,\"result\":\"Passed\"}",
+    "close": "{\"yea\":205,\"nay\":213,\"result\":\"Failed\"}"
+  },
+  "readback": [
+    {
+      "method": "get_rule",
+      "args": [
+        "publish-summary"
+      ],
+      "result": {
+        "year": 2024,
+        "roll": 2,
+        "min_yea": 210,
+        "state": "ACTIVATED",
+        "evidence": {
+          "yea": 213,
+          "nay": 200,
+          "result": "Passed"
+        }
+      }
+    },
+    {
+      "method": "get_rule",
+      "args": [
+        "enable-followup"
+      ],
+      "result": {
+        "year": 2024,
+        "roll": 100,
+        "min_yea": 200,
+        "state": "CLOSED",
+        "evidence": {
+          "yea": 205,
+          "nay": 213,
+          "result": "Failed"
+        }
+      }
+    }
+  ]
+}
